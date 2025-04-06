@@ -68,29 +68,6 @@ Modify /var/lib/postgresql/data/pg_hba.conf and postgresql.conf inside container
 
 Expose 5432 in EC2 security group.
 
-📁 GitHub Repository Structure:
-Copy
-Edit
-postgres-docker/
-├── Dockerfile
-└── README.md
-Upload this folder to GitHub.
 
-🧾 README.md Sample:
-markdown
-Copy
-Edit
-# PostgreSQL in Docker on AWS EC2
 
-This project sets up a PostgreSQL database using Docker on an AWS EC2 instance. It's ideal for developers looking to containerize databases for easy deployment and testing.
 
-## How to Use
-
-1. Clone the repo
-2. SSH into your EC2
-3. Build the Docker image
-4. Run the container
-
-## Author
-
-Deployed and documented by Dhananjay Khaire
